@@ -303,7 +303,7 @@ typedef struct Reply {
         struct ReadDataReply {
             uint8_t data[PAGE_SIZE];
         } read_notepad;
-        
+
         struct AuraLedConfigReply {} aura_led_config;
 
         struct SetPwdReply {} set_pwd;
